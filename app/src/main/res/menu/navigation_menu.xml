@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <item
+        android:id="@+id/nav_record"
+        android:title="@string/recording" />
+
+    <item
+        android:id="@+id/nav_account"
+        android:title="@string/myProfil" />
+
+
+    <item
+        android:id="@+id/nav_history"
+        android:title="@string/history" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Kijelentkezés" />
+
+</menu>

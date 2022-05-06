@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Online áram lejelentés</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="password">Jelszó</string>
+    <string name="emailAdress">Email cím</string>
+    <string name="registration">Regisztráció</string>
+    <string name="full_name">Teljes Név</string>
+    <string name="password_again">Jelszó megerősítése</string>
+    <string name="cancel">Mégse</string>
+    <string name="loginWithGoogle">Bejelentkezés google fiókkal</string>
+    <string name="loginText">Jelentkezz be!</string>
+    <string name="default_web_client">508273876360-9cp8gg3sfg4vtla847gadi1hbtf8l5gr.apps.googleusercontent.com</string>
+    <string name="title_activity_dashboard2">DashboardActivity2</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="dashboardText">Üdvözöllek az ára óra lejelentő aplikációban!\n\n-Ha óra állást szeretnél lejelenteni akkor a jobb felső sarokban tudod kiválasztani a \'Óra állás rögzítése\' lehetőséget\n-Ha a profilodat szeretnéd szerekzteni akkor a \'Saját profil\' lehetőséget válazd ki\n-Ha kiszeretnél jelentkezni akkor a \'Kijeletkezés\' lehetőséget válazdki.</string>
+    <string name="recording">Óra állás rögzítése</string>
+    <string name="myProfil">Saját profil</string>
+    <string name="adress">Fogyasztási cím(ek)</string>
+    <string name="history">Korábbi feltöltések</string>
+</resources>

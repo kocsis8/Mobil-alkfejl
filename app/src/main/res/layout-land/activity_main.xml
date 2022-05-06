@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/ic_baseline_alternate_email_24"
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/emailAdress"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="20dp"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/ic_baseline_security_24"
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/password"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:backgroundTint="#FFEB3B"
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:onClick="login"
+        android:layout_marginTop="20dp"
+        app:layout_constraintVertical_bias="0.078" />
+    <Button
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:backgroundTint="#FFEB3B"
+        android:id="@+id/loginWithGoogleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/loginWithGoogle"
+        android:onClick="loginWithGoogle"
+        android:layout_marginTop="20dp"
+        app:layout_constraintVertical_bias="0.078" />
+    <Button
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:backgroundTint="#FFEB3B"
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registration"
+        android:onClick="registration"
+        android:layout_marginTop="20dp"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <TextView
+        android:id="@+id/forgotpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerButton"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:onClick="passwordsReset"
+        android:text="Elfelejtetted a jelszavad?"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerButton"
+        android:textAlignment="center"
+
+         />
+</LinearLayout>
+

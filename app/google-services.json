@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "508273876360",
+    "project_id": "online-aram-lejelentes",
+    "storage_bucket": "online-aram-lejelentes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508273876360:android:1b01e67d39653a43176e3d",
+        "android_client_info": {
+          "package_name": "com.example.online_aram_lejelentes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508273876360-vt868iot91bmbtmbr7jsr86mkukukfop.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.online_aram_lejelentes",
+            "certificate_hash": "f932b24876f885e51852afdceb16123f249636fd"
+          }
+        },
+        {
+          "client_id": "508273876360-9cp8gg3sfg4vtla847gadi1hbtf8l5gr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLiug29QJ5XrhG_LGzDb8Owj2pnOCS2wE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508273876360-9cp8gg3sfg4vtla847gadi1hbtf8l5gr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
